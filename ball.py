@@ -24,7 +24,7 @@ def intro():
     print("- Ball (O) moves inside the field (# = border)")
     print("- Bounces off walls, speed slightly damped or amplified")
     print("- Field adapts to terminal size")
-    print("- If it crashes, resize your terminal a bit (zoom out) and try again")
+    print("- If it crashes, resize your terminal a bit (best fullscreen and zoomed out a bit) and try again")
     print("- Press Enter to start or the letter x to edit the initial conditions")
     print("- Press any key to stop the simulation")
     choice = input().lower()
