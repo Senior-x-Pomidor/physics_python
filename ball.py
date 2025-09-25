@@ -12,7 +12,7 @@ i_v_y = 80         # m/s
 i_a_x = 0        # m/s**2
 i_a_y = 10       # m/s**2
 
-d = 0.98
+d = 0.9
 
 #introduction
 
@@ -31,7 +31,7 @@ def intro():
 
     if choice == "x":
 
-        i_s_x = int(input("init. position x (m): "))
+        i_s_x = int(input("init. position x (m): ")) 
         i_s_y = int(input("init. position y (m): "))
         i_v_x = int(input("init. velocity x (m/s): "))
         i_v_y = int(input("init. velocity y (m/s): "))
@@ -86,7 +86,7 @@ def display(stdscr):
 
 def calc_pos(stdscr):
     global i_s_x, i_s_y, i_v_x, i_v_y, i_a_x, i_a_y
-    t = 0.03
+    t = 0.008
     stdscr.nodelay(True)
     while True:
         
