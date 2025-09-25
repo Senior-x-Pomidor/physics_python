@@ -12,7 +12,7 @@ i_v_y = 80         # m/s
 i_a_x = 0        # m/s**2
 i_a_y = 10       # m/s**2
 
-d = 0.9
+d = 0.95
 
 #introduction
 
